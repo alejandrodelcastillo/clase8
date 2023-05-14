@@ -1,25 +1,102 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"/>
+      <link rel="stylesheet" href="css/index.css"/>
 </head>
 <body>
+    <div id="main-container">
+        <header>
+            <nav>
+                <div class="mobile">
+                    <div class="header">
+                        <botto id="bmenu">
+                            <span class="material-icons">&#xe5d2;</span>
+                        </botto>
+                        <a href="#"> <img src="img/logo/marca-tucuman-logo-a.png" width="150"> </a>
 
-    <div class="contenedor">        
-        <div class="div-1">caja 1</div>
-        <div class="div-2">caja 2</div>
-        <div class="div-3">caja 3</div>
-        <div class="div-4">caja 4</div>
-        <div class="div-5">caja 5</div>
-        <div class="div-6">caja 6</div>
-        <div class="div-7">caja 7</div> 
-        <div class="div-8">caja 8</div>
-        <div class="div-9">caja 9</div>
-</div>
+                        <div>
+                            <a href="#"> <span class="material-icons">&#xe0ee;</span></a>
+                                <a href="#"> <span class="material-icons">&#xe616;</span></a>
+                        </div>
 
+                    </div>
 
+                    <div class="link">
+                        <a href="#">Noticias</a>
+                        <a href="#">Lugares</a>
+                        <a href="#">Mapa</a>
+
+                    </div>
+                </div>
+
+                <ul>
+                    <li><a href="#"><img src="img/logo/marca-tucuman-logo-a.png" width="150"></a></li>
+                    <li><a href="#" class="link">Hoteles</a></li>
+                    <li><a href="#" class="link">Hostal</a></li>
+                    <li><a href="#" class="link link-hide">Motel</a></li>
+                    <li><a href="#" class="link link-hide">Particular</a></li>
+                    <li><a href="#" class="link link-hide">Parque</a></li>
+                    <li class="descanso">
+                        <a href="#" class="link" id="bdescanso">Descanso</a>
+                        <div class="menu">
+                            <a href="#">Motel</a>
+                            <a href="#">Particular</a>
+                            <a href="#">Parque</a>
+                            
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li><a href="#" class="link">parques</a></li>
+                    <li><a href="#" class="link">camping</a></li>
+                    <li><a href="#" class="link">piletas</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="banner">
+            <h2>Informacion al Usuario</h2>
+            <p>
+                <a href="#" class="green-button">
+                    Historia y Datos<span class="material-icons">&#xe5cc;</span>
+                </a>
+            </p>
+            <p>El Cadillal es una localidad y comuna argentina ubicada en el Departamento Tafí Viejo de la Provincia de Tucumán. Además de un paisaje rodeado de selva y varios cursos de agua.</p>
+            <p>
+                <a href="#" class="green-link">La construcción del Dique se inició en 1962, culminándose en 1965. También en 1962 se edificaron las primeras viviendas para alojar a los ingenieros a cargo de la obra, que finalmente dieron origen a la actual villa veraniega.<span class="material-icons">&#xe5cc;</span></a>
+            </p>
+
+        </section>
+
+        <section id="imagenes">
+            <h2>Paisajes</h2>
+            <p class="w75">
+              <h2> Para Disfrutar</h2>
+            </p>
+            <h3>Tierra con amplia vegetacion</h3>
+
+            <div id="slider">
+                <div id="controls">
+                    <button id="prev">
+                        <span class="material-icons">&#xe5e0;</span>
+                    </button>
+                    <button id="next">
+                        <span class="material-icons">&#xe5e1;</span>
+                    </button>
+                </div>
+                <div id="current"></div>
+                <div id="imagenes-container"></div>
+            </div>
+
+        </section>
+    </div>
+    <script src="main.js"></script>
+    
 </body>
 </html>
